@@ -20,7 +20,7 @@ export const BoardgameList = () => {
             data.boardgameList.map(boardgame => {
                 return(
                     <Col key={boardgame.id}>
-                        <Card  className="boardgameCard">
+                        <Card className="boardgameCard">
                             <Card.Img variant="top" src={boardgame.thumbnail} className="boardgameImage" />
                             <Card.Body>
                             <Card.Title>{boardgame.title}</Card.Title>
