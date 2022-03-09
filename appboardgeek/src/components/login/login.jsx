@@ -3,10 +3,11 @@ import { Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { FloatingLabel } from 'react-bootstrap';
 
+
 export function Login() {
 
 return (
-<>
+<div className='login'>
   <FloatingLabel
     controlId="floatingInput"
     label="Correo electrónico"
@@ -19,6 +20,6 @@ return (
   </FloatingLabel>
 
   <Button variant="warning">Entrar</Button>{' '}
-</>
+</div>
 );
 }
