@@ -9,7 +9,7 @@ export function NotFound() {
           <p>
             Lo sentimos, lamentablemente esta página no existe o ha sido eliminada. :(
           </p>
-          <Button variant="warning" href='/'>Volver al inicio</Button>{' '}
+          <Button variant="warning" href='/'>Volver al Inicio</Button>{' '}
         </Alert>
       );
     }
