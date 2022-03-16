@@ -20,11 +20,11 @@ export const BoardgameList = () => {
             data.boardgameList.map(boardgame => {
                 return(
                     <Col key={boardgame.id}>
-                        <Card  className="boardgameCard">
+                        <Card className="boardgameCard">
                             <Card.Img variant="top" src={boardgame.thumbnail} className="boardgameImage" />
                             <Card.Body>
                             <Card.Title>{boardgame.title}</Card.Title>
-                            <Button variant="primary"><i className="bi bi-cart-fill"></i>  {boardgame.price} $</Button>
+                            <Button variant="warning"><i className="bi bi-cart-fill"></i>  {boardgame.price} $</Button>
                             </Card.Body>
                         </Card>
                     </Col>  

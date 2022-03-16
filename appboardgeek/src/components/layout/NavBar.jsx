@@ -6,19 +6,22 @@ export const NavBar = () => {
   return (
     <Navbar variant='light' bg='warning' expand="lg" fixed='top'>
         <Container>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/">
                 <img src={logo}  height='56'/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" >
+            <NavDropdown title="TU CUENTA" id="basic-nav-dropdown">
+                <NavDropdown.Item href="login"><i className="bi bi-people"></i>  Iniciar sesión</NavDropdown.Item>
+                <NavDropdown.Item href="register"><i className="bi bi-key"></i>  Registro</NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown title="FRONTEND" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1"><i className="bi bi-dice-5"></i>  Boardgames</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2"><i className="bi bi-puzzle"></i>  Expansions</NavDropdown.Item>
+                <NavDropdown.Item href="boardgames"><i className="bi bi-dice-5"></i>  Boardgames</NavDropdown.Item>
+                <NavDropdown.Item href="expansions"><i className="bi bi-puzzle"></i>  Expansions</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="BACKEND" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1"><i className="bi bi-gear-fill"></i>  Boardgames</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2"><i className="bi bi-pen-fill"></i>  Expansions</NavDropdown.Item>
+                <NavDropdown.Item href="backend"><i className="bi bi-gear-fill"></i>  Productos</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
             </Navbar.Collapse>
