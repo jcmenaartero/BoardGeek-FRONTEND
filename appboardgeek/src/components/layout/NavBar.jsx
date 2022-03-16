@@ -20,7 +20,7 @@ export const NavBar = () => {
                 <NavDropdown.Item href="boardgames"><i className="bi bi-dice-5"></i>  Boardgames</NavDropdown.Item>
                 <NavDropdown.Item href="expansions"><i className="bi bi-puzzle"></i>  Expansions</NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="PRODUCTOS ✨" id="basic-nav-dropdown">
+                <NavDropdown title="PRODUCTOS ✨🐲👁️🍜👄" id="basic-nav-dropdown">
                 <NavDropdown.Item href="backend"><i className="bi bi-gear-fill"></i>  Productos</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
