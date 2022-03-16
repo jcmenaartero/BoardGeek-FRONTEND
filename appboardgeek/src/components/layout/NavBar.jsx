@@ -16,7 +16,7 @@ export const NavBar = () => {
                 <NavDropdown.Item href="login"><i className="bi bi-people"></i>  Iniciar sesión</NavDropdown.Item>
                 <NavDropdown.Item href="register"><i className="bi bi-key"></i>  Registro</NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="CATEGORÍAS" id="basic-nav-dropdown">
+                <NavDropdown title="CATEGORÍAS🐲👁️" id="basic-nav-dropdown">
                 <NavDropdown.Item href="boardgames"><i className="bi bi-dice-5"></i>  Boardgames</NavDropdown.Item>
                 <NavDropdown.Item href="expansions"><i className="bi bi-puzzle"></i>  Expansions</NavDropdown.Item>
                 </NavDropdown>
