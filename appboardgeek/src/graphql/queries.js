@@ -10,3 +10,27 @@ query {
       }
   }
 `
+
+export const GET_PRODUCT_QUERY = gql`
+    query Query($findBoardgameId: String!) {
+    findBoardgame(id: $findBoardgameId) {
+        status
+        message
+        data {
+        ... on Boardgame {
+            id
+            title
+            publisher
+            language
+            dificulty
+            thumbnail
+            description
+            min_players
+            max_players
+            play_time
+            price
+            }
+        }
+    }
+}
+`
