@@ -11,9 +11,9 @@ query {
   }
 `
 
-export const GET_PRODUCT_QUERY = gql`
-    query Query($findBoardgameId: String!) {
-    findBoardgame(id: $findBoardgameId) {
+export const GET_BOARDGAME_QUERY = gql`
+    query ($id: String!){
+    findBoardgame(id: $id) {
         status
         message
         data {
