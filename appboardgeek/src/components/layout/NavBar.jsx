@@ -13,15 +13,16 @@ export const NavBar = () => {
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" >
             <NavDropdown title="TU CUENTA" id="basic-nav-dropdown">
-                <NavDropdown.Item href="login"><i className="bi bi-people"></i>  Iniciar sesión</NavDropdown.Item>
-                <NavDropdown.Item href="register"><i className="bi bi-key"></i>  Registro</NavDropdown.Item>
+                <NavDropdown.Item href="/login"><i className="bi bi-people"></i>  Iniciar sesión</NavDropdown.Item>
+                <NavDropdown.Item href="/register"><i className="bi bi-key"></i>  Registro</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="CATEGORÍAS" id="basic-nav-dropdown">
-                <NavDropdown.Item href="boardgames"><i className="bi bi-dice-5"></i>  Boardgames</NavDropdown.Item>
-                <NavDropdown.Item href="expansions"><i className="bi bi-puzzle"></i>  Expansions</NavDropdown.Item>
+                <NavDropdown.Item href="/boardgames"><i className="bi bi-dice-5"></i>  Boardgames</NavDropdown.Item>
+                <NavDropdown.Item href="/expansions"><i className="bi bi-puzzle"></i>  Expansions</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="PRODUCTOS" id="basic-nav-dropdown">
-                <NavDropdown.Item href="backend"><i className="bi bi-gear-fill"></i>  Productos</NavDropdown.Item>
+                <NavDropdown.Item href="/backend"><i className="bi bi-gear-fill"></i>Administrar Productos</NavDropdown.Item>
+                <NavDropdown.Item href="/backend/insertar"><i className="bi bi-plus"></i>  Insertar producto</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
             </Navbar.Collapse>

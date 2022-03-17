@@ -5,6 +5,7 @@ import { NavBar } from './components/layout/NavBar';
 import { Login } from './components/login/login';
 import { NotFound } from './components/notFound/notfound'
 import { Product } from './components/product/product'
+import { Insert } from './components/backend/insert'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route strict exact path="/login" component={Login} />
           <Route strict exact path="/" component={MainContent} />
+          <Route strict exact path="/backend/insertar" component={Insert} />
           <Route path="/productos/:id" component={Product} />
           <Route strict exact path="/*" component={NotFound} /> 
         </Switch>
