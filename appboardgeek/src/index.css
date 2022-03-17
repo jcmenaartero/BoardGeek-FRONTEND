@@ -34,3 +34,31 @@ code {
   margin-left: 20%;
   align-items: center;
 }
+
+.boardgameDetailsBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin: 2vh;
+  gap: 2vh;
+}
+
+.boardgameDetailsFigure {
+  width: 30%;
+}
+
+.boardgameDetails {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.boardgameDetailsDescription {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  border: solid black;
+  padding: 2vh;
+  border-radius: 2mm;
+}
