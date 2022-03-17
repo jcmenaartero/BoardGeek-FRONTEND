@@ -5,6 +5,7 @@ import { MainContent } from './components/layout/MainContent';
 import { NavBar } from './components/layout/NavBar';
 import { Login } from './components/login/login';
 import { NotFound } from './components/notFound/notfound'
+import { Product } from './components/product/product'
 
 function App() {
   return (
