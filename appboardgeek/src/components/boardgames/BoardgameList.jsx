@@ -24,7 +24,7 @@ export const BoardgameList = () => {
                             <Card.Img variant="top" src={boardgame.thumbnail} className="boardgameImage" />
                             <Card.Body>
                             <Card.Title>{boardgame.title}</Card.Title>
-                            <Button variant="warning" path="producto/{boardgame.id}"><i className="bi bi-cart-fill"></i>  {boardgame.price} $</Button>
+                            <Button variant="warning" href={`/productos/${boardgame.id}`}><i className="bi bi-cart-fill"></i>  {boardgame.price} $</Button>
                             </Card.Body>
                         </Card>
                     </Col>  
