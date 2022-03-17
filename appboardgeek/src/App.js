@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch } from "react-router";
+import { Boardgame } from './components/boardgames/Boardgame';
 import { MainContent } from './components/layout/MainContent';
 import { NavBar } from './components/layout/NavBar';
 import { Login } from './components/login/login';
@@ -15,7 +16,7 @@ function App() {
           <Route strict exact path="/login" component={Login} />
           <Route strict exact path="/" component={MainContent} />
           <Route strict exact path="/backend/insertar" component={Insert} />
-          <Route path="/productos/:id" component={Product} />
+          <Route path="/productos/:id" component={Boardgame} />
           <Route strict exact path="/*" component={NotFound} /> 
         </Switch>
     </div>

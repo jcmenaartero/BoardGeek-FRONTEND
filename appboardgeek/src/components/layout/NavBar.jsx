@@ -14,6 +14,7 @@ export const NavBar = () => {
             <Nav className="me-auto" >
             <NavDropdown title="TU CUENTA" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/login"><i className="bi bi-people"></i>  Iniciar sesión</NavDropdown.Item>
+
                 <NavDropdown.Item href="/register"><i className="bi bi-key"></i>  Registro</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="CATEGORÍAS" id="basic-nav-dropdown">
