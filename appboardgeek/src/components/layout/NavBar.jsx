@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 export const NavBar = () => {
   return (
-    <Navbar variant='light' bg='warning' expand="lg" fixed='top'>
+    <Navbar variant='light' bg='primary' expand="lg" fixed='top'>
         <Container>
             <Navbar.Brand href="/">
                 <img src={logo}  height='56'/>
